@@ -1,0 +1,97 @@
+@font-face{
+font-family: MicrogrammaDMedExt;
+src:url(fuentes/MICROGME.TTF);
+}
+
+@font-face{
+font-family: LuzSans-Book;
+src:url(fuentes/LUZRO.TTF);
+}
+
+*{
+	margin-top: 0px;
+	margin-right: 0px;
+	margin-left: 0px;
+	margin-bottom: 0px;
+	padding: 0px;
+}
+#menu {
+	height: 45px;
+	background-color: #FFED00;
+	width: 100%;
+	-webkit-box-shadow: 0px 0px;
+	box-shadow: 0px 0px;
+	position: fixed;
+	margin-bottom: 0px;
+}
+#menuinterior {
+	width: 1024px;
+	height: 45px;
+	margin-right: auto;
+	margin-left: auto;
+	background-color: #FFED00;
+}
+#header {
+	width: 1024px;
+	height: 363px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#contenido {
+	width: 1024px;
+	height: auto;
+	margin-right: auto;
+	margin-left: auto;
+	background: rgba(0, 0, 0, 0.85);
+}
+#formacontenido {
+	width: 965px;
+	margin-right: auto;
+	margin-left: auto;
+}
+#foto1 {
+	width: 372px;
+	height: 263px;
+	float: right;
+	margin-bottom: 20px;
+	margin-left: 20px;
+}
+#foto2 {
+	margin-right: 20px;
+	margin-top: 20px;
+	float: left;
+}
+#pie {
+	background-color: rgba(0, 0, 0, 0.85);
+	height: 110px;
+	width: 1024px;
+	margin-right: auto;
+	margin-left: auto;
+}
+
+
+
+.textocontenido {
+	color: #FFED00;
+	font-family: LuzSans-Book;
+	font-size: 13pt;
+}
+.titulo {
+	color: #FFED00;
+	font-family: MicrogrammaDMedExt;
+	font-size: 20pt;
+	text-align: center;
+	letter-spacing: 2pt;
+}
+.textopie {
+	color: #FFED00;
+	font-family: LuzSans-Book;
+	font-size: 10px;
+	text-align: center;
+}
+.tituloscontacto {
+	margin-bottom: 6px;
+	color: #FFED00;
+	font-family: MicrogrammaDMedExt;
+	letter-spacing: 2px;
+}
